@@ -1,5 +1,7 @@
 class BandsController < ApplicationController
 
+  def new
+  end
   def index
     Band.all
   end
@@ -13,5 +15,11 @@ class BandsController < ApplicationController
     else
       render :new
     end
+  end
+
+  private
+
+  def band_params
+    params.require(:band).permit(:email, :password)
   end
 end

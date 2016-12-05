@@ -10,6 +10,7 @@ class SessionsController < ApplicationController
       flash[:notice] = "Successfully logged in!!!"
       redirect_to root_url
     else
+      # raise flash.inspect
       flash.now[:notice] = "Invalid credentials!"
       render :new
     end
