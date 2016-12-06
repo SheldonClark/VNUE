@@ -3,7 +3,7 @@
 This is where all the bands are going to be listed
 <div>
   <% @bands.each do |band| %>
-  <p><%= band.name %></p>
+  <p><%= link_to(band.name, band) %></p>
   <p><%= band.bio %></p>
   <% end %>
 </div>
