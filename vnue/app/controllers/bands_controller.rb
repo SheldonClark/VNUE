@@ -7,6 +7,10 @@ class BandsController < ApplicationController
     @bands = Band.all
   end
 
+  def show
+    @band = Band.find(params[:id])
+  end
+
   def create
     @band = Band.new(band_params)
     if @band.save
