@@ -2,8 +2,9 @@ class BandsController < ApplicationController
 
   def new
   end
+  
   def index
-    Band.all
+    @bands = Band.all
   end
 
   def create
@@ -20,6 +21,6 @@ class BandsController < ApplicationController
   private
 
   def band_params
-    params.require(:band).permit(:email, :password)
+    params.require(:band).permit(:email, :password, :bio)
   end
 end

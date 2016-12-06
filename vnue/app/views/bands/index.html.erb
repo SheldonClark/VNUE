@@ -1,3 +1,8 @@
 <h1>All Bands Page</h1>
 
 This is where all the bands are going to be listed
+<div>
+  <% @bands.each do |band| %>
+  <%= band.bio %>
+  <% end %>
+</div>
