@@ -1,0 +1,20 @@
+<h1>Edit</h1>
+<%= flash[:notice] %>
+<%= form_for @band do |f| %>
+  <div class="field">
+    <%= f.label :email %>
+    <%= f.email_field :email %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password %>
+    <%= f.password_field :password %>
+  </div>
+
+  <div class="field">
+    <%= f.label :bio %>
+    <%= f.text_field :bio %>
+  </div>
+
+  <%=  f.submit %>
+<% end %>
