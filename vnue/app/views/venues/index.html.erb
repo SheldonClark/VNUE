@@ -1,0 +1,24 @@
+<h1>Venues</h1>
+
+
+This is where all the venues venues are going to be listed
+<div>
+  <% @venues.each do |venue| %>
+  <p><%= link_to(venue.name, venue) %></p>
+  <p><%= venue.bio %></p>
+  <% end %>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
