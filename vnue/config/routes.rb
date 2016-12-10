@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   resource :band_sessions, only: %i(new create destroy)
   get '/band_login' => 'band_sessions#new'
   resources :venues
+  resource :venue_sessions
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
