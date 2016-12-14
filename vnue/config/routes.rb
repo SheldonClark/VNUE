@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :bands
   root 'bands#index'
   resources :bands
   resource :band_sessions, only: %i(new create destroy)
