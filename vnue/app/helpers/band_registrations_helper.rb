@@ -1,0 +1,2 @@
+module BandRegistrationsHelper
+end

@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   devise_for :bands
+  get '/bands/:id', to: 'bands#show', as: :band
   root 'bands#index'
   resources :venues
   resource :venue_sessions

@@ -3,7 +3,6 @@ class Band < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-  has_secure_password
 
   validates :email, presence: true, allow_blank: false, format: {with: /\A([\w+\-].?)+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i}
   validates :password, confirmation: true, presence: true, allow_blank: false, length: {minimum: 8}
