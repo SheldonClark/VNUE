@@ -8,7 +8,7 @@
 Venue.destroy_all
 Band.destroy_all
       #VENUE SEED FILES
-    venue1 = Venue.create!([{ name: 'The Cavern', bio: 'Super fun times at King and Church', email: 'thecavern@gmail.com', phone_num: 1234567890 }])
+    venue1 = Venue.create!([{ name: 'The Cavern', bio: 'Super fun times at King and Church', email: 'thecavern@gmail.com', phone_num: 1234567890, image: 'https://static1.squarespace.com/static/5578e99be4b072249e2619be/578d2e276b8f5b225f3df58b/578d30fab3db2b8c24f17282/1468872273296/2016-HI-Toronto-The-Cavern-Stage.jpg?format=1500w' }])
     venue2 = Venue.create!([{ name: 'Sneaky Dees', bio: 'A great venue at College & Bathurst', email: 'sneakydees@gmail.com', phone_num: 1234567890 }])
       #BAND SEED FILES
     band1 = Band.create!([{ name: 'Sparkle Planet', bio: 'We play sparklecore music all the time, you cant stop us from playing that sparklecore it is so great. I cant remember the last time we didnt play sparklecore, I tell ya. It is just simply the best music out there, you have no idea guys. Simply the best. It is really a perfect blend of sparkle music, and core music - which is really where it gets that sparklecore tone, come check out our sparkle music!', email: 'sparkleplanet@gmail.com', password: 'password', password_confirmation: 'password', image: "http://kultscene.com/wp-content/uploads/2015/03/Victim-Mentality-1.jpg" }])
