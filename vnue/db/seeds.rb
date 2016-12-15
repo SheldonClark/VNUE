@@ -11,6 +11,6 @@ Band.destroy_all
     venue1 = Venue.create!([{ name: 'The Cavern', bio: 'Super fun times at King and Church', email: 'thecavern@gmail.com', phone_num: 1234567890 }])
     venue2 = Venue.create!([{ name: 'Sneaky Dees', bio: 'A great venue at College & Bathurst', email: 'sneakydees@gmail.com', phone_num: 1234567890 }])
       #BAND SEED FILES
-    band1 = Band.create!([{ name: 'Sparkle Planet', bio: 'We play sparklecore music', email: 'sparkleplanet@gmail.com', password: 'password', password_confirmation: 'password' }])
+    band1 = Band.create!([{ name: 'Sparkle Planet', bio: 'We play sparklecore music', email: 'sparkleplanet@gmail.com', password: 'password', password_confirmation: 'password', image: "http://kultscene.com/wp-content/uploads/2015/03/Victim-Mentality-1.jpg" }])
     band2 = Band.create!([{ name: 'Lords of Kitten', bio: 'We are really into metalcore, but what we mostly care about is kittens', email: 'lordsofkitten@gmail.com', password: 'password', password_confirmation: 'password' }])
     band3 = Band.create!([{ name: 'Google Bears', bio: 'We wear bear costumes at our shows', email: 'googlebears@gmail.com', password: 'password', password_confirmation: 'password' }])
