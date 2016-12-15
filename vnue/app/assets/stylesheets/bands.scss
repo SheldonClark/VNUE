@@ -1,11 +1,37 @@
 // Place all the styles related to the bands controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-h1{
-    font-size: 30px;
+.home-header {
+    font-size: 40px;
     font-weight: bold;
     font-family: Courier;
     color: #353960;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
+}
+
+.band-bio{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Courier;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+
+.page-content {
+  background-color: white;
+  height: 100%;
+  width: 800px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #E9E9E9;
+  height: 100%;
+}
+
+html {
+  height: 100%;
 }
