@@ -1,3 +1,44 @@
 // Place all the styles related to the Venues controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.home-header {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Courier;
+    color: #353960;
+    text-decoration: none;
+    text-align: left;
+}
+
+.venue-bio{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Courier;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+
+.venue-image img{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.page-content{
+  background-color: white;
+  height: 100%;
+  width: 800px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #94C0D5;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}

@@ -1,3 +1,8 @@
-<div class="band-image"><%= image_tag(@band.image) %></div>
+<div class="band-image">
+  <% if @band.image.present? %>
+    <%= image_tag @band.image %>
+  <% end %>
+</div>
+
 <h1><%= @band.name %></h1>
 <p><%= @band.bio %></p>

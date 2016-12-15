@@ -1,13 +1,9 @@
+<div class="venue-image">
+  <% if @venue.image.present? %>
+    <%= image_tag @venue.image %>
+  <% end %>
+</div>
 <h1><%= @venue.name %></h1>
 <p>Email: <%= @venue.email %></p>
 <p>Phone: <%= @venue.phone_num %></p>
 <p>About: <%= @venue.bio %></p>
-
-
-
-
-
-
-
-
-
