@@ -6,4 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
     venue1 = Venue.create([{ name: 'cool venue', bio: 'great venue for bands to play at', email: 'coolvenue@gmail.com', phone_num: 1234567890 }])
-    
+
+    band1 = Band.create([{ name: 'Sparkle Planet', bio: 'We play sparklecore music', email: 'sparkleplanet@gmail.com' }])
